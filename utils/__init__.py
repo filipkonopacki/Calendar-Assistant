@@ -18,6 +18,6 @@ GOOGLE_CREDENTIALS = os.path.join(ROOT_DIR, '..', 'credentials.json')
 GOOGLE_TOKEN = os.path.join(ROOT_DIR, '..', 'token.json')
 
 # Define the path for the logs directory
-LOGS_DIR = os.path.join(ROOT_DIR, 'logs')
+LOGS_DIR = os.path.join(ROOT_DIR, '..', 'logs')
 if not os.path.exists(LOGS_DIR):
     os.makedirs(LOGS_DIR)
